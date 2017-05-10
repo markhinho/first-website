@@ -1,0 +1,323 @@
+*{
+	box-sizing: border-box;
+}
+body{
+margin: 0px;
+background-image: url(https://s-media-cache-ak0.pinimg.com/originals/10/5b/18/105b18b8db617d4c02aa417cadbdae57.jpg);
+}
+.container{
+height: 1900px;
+width: 1100px;
+background-color: transparent;
+margin: 0 auto;
+position: relative;
+
+}
+
+/* HEADER */
+
+.header{
+width: 100%;
+height: 150px;
+position: relative;
+}
+.header_logo{
+background-color: black;
+
+height: 150px;
+width: 366px;
+float: left;
+position: relative;
+}
+.header_signin{
+background-color: #fff;
+
+height: 150px;
+width: 367px;
+float: left;
+background-color: black;
+padding-left: 130px;
+padding-top: 50px;
+position: relative;
+}
+.signin_button{
+	font-size: 30px;
+	float: left;
+	color: #770000;
+	border-right: 3px inset #999;
+	padding-right: 9px;
+	position: relative;
+}
+.signup_button{
+	font-size: 30px;
+	float: left;
+	
+	padding-left: 9px;
+	position: relative;
+}
+.header_signin div a{
+	text-decoration: none;
+	color: #770000;
+}
+.header_signin div a:hover{
+	color: gold;
+}	
+.header_search{
+background-color: #fff;
+
+height: 150px;
+width: 367px;
+float: left;
+background-color: black;
+padding-top: 50px;
+padding-left: 20px;
+position: relative;
+}
+.header_search_box{
+	height: 40px;
+	width: 80%;
+	border: 1px solid #666;
+	font-family: 'Fjalla One', sans-serif;
+	color: #999
+	font-size: 14px;
+	float: left;
+	position: relative;
+}
+.input_search{
+	height: 100%;
+	width: 100%;
+	font-size: 20px;
+	float: left;
+	position: relative;
+	background-color: black;
+	color: #aaa;
+}
+.header_search_button{
+	height: 40px;
+	width: 20%;
+	
+	font-family: 'Fjalla One', sans-serif;
+	color: #999;
+	font-size: 14px;
+	background-color: #770000;
+	float: left;
+	border-left: 5px solid black;
+	border-right: 25px solid black;
+	position: relative;
+}
+.header_search_button:hover{
+
+}
+.search_image{
+	padding-top: 3px;
+	padding-left: 2px;
+	position: relative;
+}
+/* NAV */
+
+nav{
+width: 1100px;
+height: 40px;
+background-color: black;
+padding-top: 12px;
+margin-top: 1px;
+margin-color: #666;
+position: relative;
+
+
+}
+nav a{
+	text-decoration: none;
+	color: gold;
+}
+nav a:hover{
+	color: yellow;
+}
+#navigation{
+	z-index: 1000;
+}
+.home{
+float: left;
+color: gold;
+text-align: center;
+width: 220px;
+text-transform: uppercase;
+font-size: 15px;
+position: relative;
+}
+.exercises{
+float: left;
+color: gold;
+text-align: center;
+width: 220px;
+text-transform: uppercase;
+font-size: 15px;
+position: relative;
+}
+.tracks{
+float: left;
+color: gold;
+text-align: center;
+width: 220px;
+text-transform: uppercase;
+font-size: 15px;
+position: relative;
+}
+.gear{
+float: left;
+color: gold;
+text-align: center;
+width: 220px;
+text-transform: uppercase;
+font-size: 15px;
+position: relative;
+}
+.theory{
+float: left;
+color: gold;
+text-align: center;
+width: 219px;
+text-transform: uppercase;
+font-size: 15px;
+position: relative;
+}
+
+/* CONTENT */
+
+.content{
+padding-top: 80px;
+position: relative;
+}
+.intro{
+background-color: transparent;
+width: 550px;
+height: 430px;
+border-bottom: 180px solid transparent;
+float: none;
+margin-left: 25%;
+font-size: 100px;
+color: gold;
+text-align: center;
+position: relative;
+
+}
+.content_vid_1{
+float: left;
+height: 315px;
+width: 52%;
+border: 2px solid gold;
+position: relative;
+}
+.content_dis_1{
+float: left;
+height: 315px;
+width: 48%;
+padding-right: 200px;
+font-size: 22px;
+padding: 5px;
+color: gold;
+position: relative;
+}
+.content_dis_2{
+float: left;
+height: 315px;
+width: 48%;
+padding-left: 200px;
+font-size: 22px;
+padding: 5px;
+color: #c43333;
+position: relative;
+}
+.content_vid_2{
+float: left;
+height: 315px;
+width: 52%;
+border: 2px solid #c43333;
+position: relative;
+}
+.content_vid_3{
+
+float: left;
+height: 315px;
+width: 52%;
+border: 2px solid gold;
+position: relative;
+}
+.content_dis_3{
+float: left;
+height: 315px;
+width: 48%;
+padding-right: 200px;
+font-size: 22px;
+padding: 5px;
+color: gold;
+position: relative;
+}
+.content_spacing{
+float: left;
+height: 395px;
+width: 1100px;
+padding-top: 80px;
+padding: 10px;
+position: relative;
+}
+
+/* FOOTER */
+
+.footer{
+width: 100%;
+height: 350px;
+background-color: black;
+margin: 0 auto;
+clear: both;
+color: gold;
+padding: 45px;
+line-height: 25px;
+padding-left: 140px;
+position: relative;
+}
+.footer_left{
+	float: left;
+	height: 190px;
+	width: 540px;
+	position: relative;
+
+}
+.footer_right{
+	float: left;
+	height: 190px;
+	width: 540px;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	line-height: 38px;
+}
+.donate{
+	position: absolute;
+	bottom: 30px;
+	right: 35px;
+	font-size: 20px;
+}
+.donate a{
+	text-decoration: none;
+	color: gold;
+}
+.donate a:hover{
+	color: green;
+}
+.donate ul li{
+	list-style: none;
+}
+.footer_right a{
+	text-decoration: none;
+	color: #770000;
+}
+.footer_right a:hover{
+	color: gold;
+}
+.footer_right ul li {
+padding-bottom: 10px;
+list-style: none;
+}
+ /*java*/
+
